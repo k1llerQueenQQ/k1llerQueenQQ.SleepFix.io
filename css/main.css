@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin:0;
+    padding:0 ;
+}
+
+body{
+    background-image: url("/img/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 400;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+header{
+    padding: 80px 0;}
+header.logo{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+header nav{
+    float: right;
+    width: 50%;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    
+}
+header nav ul li:not(.btn) a:hover{
+    border-bottom: 5px solid #040b14b7 ;
+
+}
+header nav ul li.btn a{
+    background-color: #040b145b;
+    padding: 9px 17px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+
+}
+header nav ul li.btn a:hover{
+    background: 5px solid #020305de ;
+}
+.hero{
+    padding-bottom: 565px;
+    position: relative;
+}
+.hero--info{
+    
+    padding-top: 300px;
+}
+.hero--info h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.hero--info h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.hero img{
+    position: absolute;
+    left: 1200px;
+    top: 550px;
+    
+}
