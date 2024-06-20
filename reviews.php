@@ -15,17 +15,18 @@
 
         <div class="login">
             <div class="container">
-                <h1>Вход</h1>
-                <form method="post" action="lib/authorization.php">
+                <h1>Оставьте отзыв</h1>
+                <form method="post" action="lib/rew.php">
                     <div class="inline">
                         <div>
-                            <input type="text" name="email" placeholder="E-mail">
+                            <input type="text" name="Name" placeholder= "Ваше имя">
                         </div>
+                        <label>"Ваш отзыв(форму можно растянуть)"</label>
                         <div>
-                            <input type="password" name="password" placeholder="Пароль">
+                            
+                            <textarea name="Text"></textarea>
                         </div>
-                        <button type="submit">Вход</button>
-                        <div><a href="reg.php">Нет аккауната? Зарегестрироваться</a>
+                        <button type="submit">Отправить</button>
                         </div>
 
 

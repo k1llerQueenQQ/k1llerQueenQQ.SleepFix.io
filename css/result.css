@@ -33,8 +33,8 @@ header {
 
 header.logo {
     text-transform: uppercase;
-    
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 header nav {
@@ -74,32 +74,19 @@ header nav ul li.btn a:hover {
     background: 5px solid #020305de;
 }
 
-.hero {
-    padding-bottom: 565px;
-    position: relative;
-}
-
-.hero--info {
-
-    padding-top: 300px;
-}
-
-.hero--info h2 {
+th{
+    margin: 20px;
     font-size: 30px;
-    font-weight: 600;
+    background-color: #040b145b;
+    height: 50px;
+    width: auto;
+    
 }
-
-.hero--info h1 {
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.hero img {
-    position: absolute;
-    left: 1200px;
-    top: 550px;
-
-}
-h3{
+td{
+    background-color: #040b147e;
     font-size: 25px;
+}
+.info{
+   padding: 20px;
+    
 }

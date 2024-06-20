@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTG-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>SleepFix</title>
-     <link rel="stylesheet" href="/css/reg.css">
+    <title>SleepFix</title>
+    <link rel="stylesheet" href="/css/reg.css">
 </head>
 
 <body>
     <div class="wrapper">
-         <?php require_once "blocks/header.php"?>
+        <?php require_once "blocks/header.php" ?>
 
         <div class="login">
             <div class="container">
@@ -17,28 +18,29 @@
                 <form method="post" action="lib/registration.php">
                     <div class="inline">
                         <div>
-                            <input type="text" name="email" placeholder="E-mail">
+                            <input type="email" name="email" placeholder="E-mail">
                         </div>
                         <div>
                             <input type="password" name="password" placeholder="Пароль">
                         </div>
                         <div>
-                            <input type="password" name="password2" placeholder="Повторите пароль"> 
+                            <input type="password" name="password2" placeholder="Повторите пароль">
                         </div>
                         <div>
-                            <p><input type="checkbox" value="Yes" name="UA"/>Принимаю условия пользовательского соглашения</p>
+                            <input type="checkbox" value="Yes" name="UA" />
                         </div>
+                        <div><a>Принимаю условия пользовательского соглашения</a></div>
                         <button type="submit">Регистрация</button>
-                            <div><a href="login.php">Уже есть аккаунт? Войдите</a>
+                        <div><a href="login.php">Уже есть аккаунт? Войдите</a>
                         </div>
-                        
-                        
-                        
+
+
+
                     </div>
                 </form>
-            </div>    
+            </div>
 
-        </div>  
+        </div>
         <div class="hero container">
         </div>
 

@@ -84,8 +84,9 @@ header nav ul li.btn a:hover {
 
 .login h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
+    margin-bottom: 40px;
     color: #9a988e;
 }
 
@@ -123,4 +124,55 @@ header nav ul li.btn a:hover {
     color: #9a988e;
     font-size: 20px;
     margin-top: 30px;
+}
+
+.login form label {
+    color: #ffd500;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.questions input {
+    appearance: none;
+    cursor: pointer;
+    text-align: center
+}
+
+.questions {
+    text-align: center;
+}
+
+.questions input:checked {
+    color: #9a988e;
+    font-size: 20px;
+    background: #ffffff00;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 500;
+
+}
+
+.questions input:before {
+    text-align: center;
+    content: attr(label);
+    font-size: 25px;
+    font-weight: 500;
+
+
+}
+
+h3 {
+    color: #9a988e;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+
 }
