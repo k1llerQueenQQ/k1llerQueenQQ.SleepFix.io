@@ -1,4 +1,4 @@
-<?php
+oh<?php
 $Email = trim(filter_var($_POST['email'], FILTER_SANITIZE_SPECIAL_CHARS));
 $Password = trim(filter_var($_POST['password'], FILTER_SANITIZE_SPECIAL_CHARS));
 $Password2 = trim(filter_var($_POST['password2'], FILTER_SANITIZE_SPECIAL_CHARS));
@@ -21,7 +21,7 @@ if ($Password == $Password2 && isset($_POST['UA']) && $_POST['UA'] == 'Yes') {
 
     header('Location: /index.php');
 } else {
-    echo 'Ошибка данных';
+    echo 'помойся воняешь';
 }
 
 
